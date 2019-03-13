@@ -1,0 +1,10 @@
+Virus defender
+Storyline - Criminal trying to hack into phone, You are the phone trying to defend against the viruses he sends to access your data.
+You send out anti viruses and try to stop the viruses to attack the database
+Aim of the game - To defend against the viruses
+Different viruses - Virus (first attacker, weakest attacker), Spyware (Camo balloon, certain upgrades allow it to attack this one)
+Ransomware (Second attacker, call it the blue balloon), Worm (Has three layers, splits into two blue, then four red)
+Rootkit (Ceramic balloon, tougher one and harder to fight), Spam (Mini heart balloon, has multiple layers, has to be killed or regens)
+Trojan (Like a horse, cracks in the middle and comes out 4 Rootkits), Adware (Speed balloon, works quickly, call it the yellow balloon)
+Anti Virus softwares: AntiSpyware(Deals with spyware balloon most effectively, can attack others for purpose of game)
+Simple Antivirus(Most basic, first one to get, dart monkey)
