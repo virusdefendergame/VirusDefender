@@ -1,0 +1,12 @@
+StoryLine: So you are the phone, a person finds you and tries to open it, then he connects you to a computer and tries to hack in. 
+As the phone, you use your anti virus tools to beat the malware he tries to put into your phone. 
+
+
+
+
+
+Extras: Add information about every virus when they spawn in map new, keep the virus in information section, what it is in real life
+then the bit on right about its information in the game
+-Database at the end, 200 hp (can be changed just edit) attacked by viruses, if killed game over
+-As game over, it should have an ecrypted lock being opened 
+-

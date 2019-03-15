@@ -1,0 +1,81 @@
+Database has 1000hp
+
+"""
+Format
+example text
+- Extra information
+
+example text
+  upgrade1
+  upgrade2
+  upgrade3
+"""
+attackpoints = How much damage it does
+hp = Health points
+Malware:
+
+Virus has 75hp, attackpoints 10hp per shot, shoots one shot per 3 seconds, base speed of 1x
+Spyware has 100hp, attackpoints 25hp per shot, shoots one shot per 2.5 seconds, speed of 1.1x
+-cannot be detected by other anti viruses unless specified AVS can(Will be talked about later)
+Ransomware has 150hp, attackpoints 20hp per shot, shoots one shot per 2.75 per 3 sec speed of 0.8x
+Worm 3rd layer alone has 250hp moves very slowly 0.5x, hurts database at a rate of 30hp per shot shoots one shot per 5 secs,
+-second layer has two worms come out, these have 125hp move a bit faster 0.75x, hurts database at rate 20 hp, shoots one shot per 4 sec
+-each worm then releases the last worm which has 65hp, move as fast as the virus with a 1x. attackpoints 10 hp per sec, 
+-shoots one shot per 3 secs. So 3rd layer worm, then 2 2nd layer worms, then 4 third layer worms come out.
+Rootkit has 300hp, hurts database at rate of 40hp per shot, shoots one per 4 secs, speed of 0.6x
+Spam has 150hp, hurts database at rate of 15hp per shotm shoots one per 2 secs, speed of 1.2x, regens at rate of 15hp per sec
+Adware has 120hp, hurts database at rate of 5hp per shot, shoots one shot per 1 second, speed of 1.5x
+Trojan has 600hp, when reaches database, breaks automatically, base speed of 0.4x, splits into 2 rootkits when broken or gets close
+to the database
+
+AVS (Anti virus software):
+Simple Antivirus attackpoints of 38hp, one shot per 2 sec:
+  upgrade one allows it to attack spyware
+  upgrade two makes every shot chain hit two malware at every shotu
+  upgrade three attackpoints increase to 45hp per shot
+AntiSpyware attackpoints on spyware at 80hp per shot, on other malware attackpoints of 30hp per shot, one shot per 2.5 sec
+  upgrade one increases attackpoints to 90hp on spyware, attackpoints on other malware is 35hp per shot
+  upgrade two goes to 2s per shot
+  upgrade three allows it in its radius to attack spyware also
+Firewall is a one by one blockade which either blocks or slows the rate at which viruses can get through starts at base value 300hp
+-If it blocks path, it has to be attacked like a mini database until it can be accessed
+  upgrade one increases hp to 330hp
+  upgrade two increases hp to 420hp
+  upgrade three increases hp to 500hp
+Malware spy decreases speed cooldown timer to surrounding towers in radius by -10% base
+-Helps anti viruses around it, helping decrease shoot cooldown timers around it
+  upgrade one gets new power, increases attackpoint dmg to surrounding AVS by +15% base
+  upgrade two decreases speed cooldown timer to surrounding towers now by -20%
+  upgrade three increases attackpoint dmg to +25% base, decreases speed cooldown timer by -25%
+MalwareAttacker sends pulsebomb which affects four viruses in a chain with attackpoints of 50hp, one shot per 3 secs
+-Each shot goes in a chain which attacks nearest malware like the lightning from monkey apprentice in BTD
+  upgrade one pulsebomb now affects six malware in a chain
+  upgrade two increases attackpoints to 65hp
+  upgrade three increases attackpoints to 80hp, one shot per 2.5s, affects eight malware in a chain
+VirusDestroyer locks onto one malware and erases it from sight, 4s cooldown
+-If it locks on and erases Trojan, it still leaves two rootkits
+-The switch is like spikes on BTD where if they go past they get hurt
+  upgrade one goes from 4s cooldown to 3s
+  upgrade two is when it destroys a malware, it leaves a set of switches which when a malware goes past, loses 20hp, has 5 uses
+  upgrade three switches now have 8 uses, now they lose 30hp when malware go past
+Corrupter shoots with 2s cooldown, deals 50% health, leaves virus with 50% decrease in speed, hp and attackpoints
+  upgrade one 60% decrease in attackpoints
+  upgrade two cooldown goes down to 1.8s
+  upgrade three chain shots two viruses
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

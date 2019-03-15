@@ -6,5 +6,14 @@ Different viruses - Virus (first attacker, weakest attacker), Spyware (Camo ball
 Ransomware (Second attacker, call it the blue balloon), Worm (Has three layers, splits into two blue, then four red)
 Rootkit (Ceramic balloon, tougher one and harder to fight), Spam (Mini heart balloon, has multiple layers, has to be killed or regens)
 Trojan (Like a horse, cracks in the middle and comes out 4 Rootkits), Adware (Speed balloon, works quickly, call it the yellow balloon)
-Anti Virus softwares: AntiSpyware(Deals with spyware balloon most effectively, can attack others for purpose of game)
-Simple Antivirus(Most basic, first one to get, dart monkey)
+Anti Virus softwares (AVS): AntiSpyware(Deals with spyware balloon most effectively, can attack others for purpose of game)
+Simple Antivirus(Most basic, first one to get, dart monkey, upgrade 1 = kills spyware, upgrade 2 = goes through two virus like a chain),
+upgrade 3 = Kills two layers)
+Firewall(Blockades, cycle, plant one per round upgrade one +20% durability, upgrade two +30% durability from base value,
+upgrade 3 +50% durability base value)
+MalwareSpy(Helps anti-viruses surrounding it, maybe decreases shoot cooldown timer to surronding AVS, increases)
+MalwareAttacker(Takes role of malware disarming, destroys malware, best type of AVS, bomb - sends pulse chain stripping one layer off 
+4 viruses, upgrade 1 = one layer off six viruses, upgrade 2 = one layer off 10 viurses, upgrade 3 = improves one layers to two)
+VirusDestroyer(It locks on to one virus, incinerates it, no matter how strong it is, has a 5 sec timer, Upgrade one, 5s to 3s
+Upgrade two, leaves a set of switches(spikes) strips one layer of next three viruses, Upgrade 3, 3s to 2s, switches now does next 
+5 viruses)
